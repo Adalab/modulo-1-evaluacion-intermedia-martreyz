@@ -1,0 +1,63 @@
+/* Reset styles */
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Rubik", sans-serif;
+}
+
+/* Header Styles */
+
+.header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  background-color: white;
+}
+
+.contimg img {
+  width: 155px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+.headerlist {
+  display: flex;
+  margin-bottom: 13px;
+}
+.headeritem {
+  list-style-type: none;
+  font-size: 16px;
+}
+
+.headeritem-01 {
+  margin-right: 20px;
+}
+
+.aheader {
+  text-decoration: none;
+  color: #4a4a4a;
+}
+
+/* Main styles */
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #3cdbc0;
+}
+
+.h1main {
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  margin-right: 20%;
+  margin-left: 20%;
+  /* Informed margins to force text to three lines like in sample */
+}
