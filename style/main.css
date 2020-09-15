@@ -71,7 +71,6 @@
 @media all and (min-width: 768px) {
   /* Header 768px styles */
   .header {
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
