@@ -43,6 +43,7 @@
 .aheader {
   text-decoration: none;
   color: #4a4a4a;
+  text-transform: uppercase;
 }
 
 /* Main styles */
@@ -60,6 +61,7 @@
   color: #ffffff;
   font-size: 30px;
   text-align: center;
+  text-transform: capitalize;
 }
 
 .titleinner {
