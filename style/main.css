@@ -20,6 +20,7 @@
 .contimg {
   width: 155px;
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 .contimg img {
   width: 100%;
@@ -35,15 +36,11 @@
   font-size: 16px;
 }
 
-.headeritem-01 {
-  margin-right: 20px;
-}
-
 .aheader {
   text-decoration: none;
   color: #4a4a4a;
   text-transform: uppercase;
-  padding: 10px 0px;
+  padding: 10px 10px;
 }
 
 /* Main styles */
@@ -81,7 +78,7 @@
     margin-left: 30px;
   }
   .headeritem-02 {
-    margin-right: 30px;
+    margin-right: 20px;
   }
 
   .headerlist {
